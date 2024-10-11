@@ -1,0 +1,44 @@
+.lg  {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px; /* Adjust padding as needed */
+  }
+  .su {
+      right: 0;
+      padding-right: 60px;
+      position: absolute;
+      top: 0;
+  }
+  .whole {
+    font-family: 'Gill Sans', 'Gill Sans MT', sans-serif;
+    color: darkgray;
+  }
+  body {
+    background-color: black;
+  }
+  .g1 {
+    top: 5;
+    left: 0;
+  }
+  .containerimg {
+    width: 70%;
+    height: 400px;
+    display: flex;
+    gap: 15px;
+  }
+  
+  .containerimg img {
+    width: 200px;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 30px;
+    border: 2px solid rgba(255, 255, 255,);
+    transition: all ease-in-out 0.5s;
+    display: block;
+    justify-content: center;
+  }
+  
+  .containerimg img:hover {
+    width: 350px;
+  }
